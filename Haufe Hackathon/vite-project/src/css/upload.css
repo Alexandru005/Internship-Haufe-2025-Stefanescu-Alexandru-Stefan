@@ -1,0 +1,42 @@
+/* Container upload */
+.upload-div {
+  min-width: fit-content;
+  width: 90%;
+  margin: 30px auto;
+  margin-bottom: 400px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #fefefea9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+}
+
+/* Input și buton */
+.container-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.choose-file {
+  flex: 1;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.upload {
+  border: 1px solid black;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.upload:hover {
+  background-color: #45a049;
+}

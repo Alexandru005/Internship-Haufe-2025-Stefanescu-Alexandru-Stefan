@@ -1,0 +1,32 @@
+class Program1{
+    public static void main(String[] args){
+        //exercitiul 1
+        System.out.println("Hello, world!");
+
+        //exercitiul 2
+        int a = 3;
+        int b = 5;
+
+        if(a > b){
+            System.out.println(a);
+        }
+        if(a < b){
+            System.out.println(b);
+        }
+        if(a == b){
+            System.out.println("Numerele sunt egale!");
+        }
+
+        //exercitiul 3
+        int suma = 0;
+        for(int i = 1; i <= 100; i++){
+            if(i % 2 == 0){
+                suma = suma + i;
+            }
+            else{
+                System.out.println(i);
+            }
+        }
+        System.out.println("Suma e egala cu: " + suma);
+    }
+}

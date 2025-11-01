@@ -1,0 +1,14 @@
+header{
+    margin: 0;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 20px white;
+}
+
+header img{
+    width: 50px;
+    height: auto;
+    margin: 0;
+    background-color: rgba(245, 245, 245, 0.493);
+    border-radius: 10px;
+}

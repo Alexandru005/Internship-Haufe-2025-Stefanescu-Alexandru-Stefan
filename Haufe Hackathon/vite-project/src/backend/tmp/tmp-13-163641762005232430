@@ -1,0 +1,5 @@
+function afiseazaNume() {
+    console.log(nume); // 'nume' nu este definit
+}
+
+afiseazaNume();

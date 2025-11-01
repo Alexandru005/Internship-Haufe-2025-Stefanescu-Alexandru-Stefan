@@ -1,0 +1,42 @@
+/* Rezultate */
+.results {
+  margin-top: 20px;
+}
+
+.results h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.results li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  border-left: 4px solid #4caf50;
+}
+
+.results li strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.results pre {
+  background-color: #e8e8e8;
+  padding: 8px;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.results em {
+  font-style: normal;
+  font-weight: bold;
+}
